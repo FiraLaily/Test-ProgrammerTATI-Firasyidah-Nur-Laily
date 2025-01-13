@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "rest-api-indoprovinsi",
   "version": "1.0.0",
   "main": "index.js",
@@ -17,4 +18,24 @@
     "mysql": "^2.18.1",
     "mysql2": "^3.12.0"
   }
+=======
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.20",
+        "axios": "^1.7.4",
+        "concurrently": "^9.0.1",
+        "laravel-vite-plugin": "^1.0",
+        "postcss": "^8.4.47",
+        "tailwindcss": "^3.4.13",
+        "vite": "^6.0"
+    },
+    "dependencies": {
+        "serve-favicon": "^2.5.0"
+    }
+>>>>>>> d0f67991604382ecd0b5c06db16385e236acc330
 }
